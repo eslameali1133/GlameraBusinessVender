@@ -1,16 +1,36 @@
 {
-    "home" : "Home",
-    "profile" : "My Profile",
-    "myCars" : "My Car",
+   
+   "orderId" : "Order Id :",
+   "confirm" : "Confirm",
+   "clientName" : "Client Name :",
+   "cancelOrder" : "Cancel",
+   "orderServices" : "Services :",
+   "Orders" : "Orders",
+   "Whyyoucanceled" : "Why did you cancel ?",
+   "leavecomment" : "Leave comment ",
+   "selectDefault" : "Select Default ",
+    "Add" : " Add ",
+    "defaultservices" : "default Services",
+    "saveService" : "Save",
+    "Orders" : "Orders",
+    "pending" : "Pending",
+    "inProgress" : "In Progress",
+    "canceled" : "Canceled",
+    "Done" : "Done ",
+    "ConfirmBooking" : "Order Has Been Confirmed",
+    "arrived" : "Arrived",
+    "noshow" : "No Show",
+    "completed" : "Completed",
+    "noorders" : "No Orders",
+    "error" : "Error",
     
-    "changeLanguage" : "Change Language?",
-    "changeLanguageMessage" : "Are you sure to change language",
-    "change" : "Change",
+    
     "cancel" : "Cancel",
     
     "arabic" : "Arabic",
     "english" : "English",
    
+
     "NamePlaceHolder" : "Enter your name",
     "email" : "Email",
     "Save" : "Save",

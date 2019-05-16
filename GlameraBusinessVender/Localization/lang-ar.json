@@ -1,4 +1,30 @@
 {
+    
+    "orderId" : " رقم الطلب :",
+    "confirm" : "تاكيد",
+    "clientName" : "اسم العميل :",
+    "cancelOrder" : "إلغاء",
+    "orderServices" : "الخدمات :",
+    "orderServices" : "الطلبات",
+    "Whyyoucanceled" : "لماذا قمت بالالغاء ؟",
+    "leavecomment" : " اترك تعليقاًًً",
+    "selectDefault" : "اختيار افتراضي ",
+    "Add" : " إضافه ",
+    "defaultservices" : "الخدمات الافتراضيه",
+    "saveService" : "حفظ",
+    "Orders" : "الطلبات"،
+    "pending" : "المعلقه",
+    "inProgress" : "قيد التنفيذ",
+    "canceled" : "الملغاه",
+    "Done" : "تم ",
+    "ConfirmBooking" : "تم تاكيد الحجز",
+    "arrived" : "تم الوصول",
+    "noshow" : "لم يصل",
+    "completed" : "اكتمل",
+    "noorders" : "لا يوجد طلبات",
+    "error" : "خطأ",
+    
+    
     "home" : "الرئيسية",
     "profile" : "صفحتي",
     "change" : "تغيير",

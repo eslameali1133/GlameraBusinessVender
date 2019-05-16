@@ -38,6 +38,7 @@ final class Loader {
     }
     
     static func showSuccess(message: String) {
+        SVProgressHUD.setMaximumDismissTimeInterval(1.0)
         SVProgressHUD.showSuccess(withStatus: message)
     }
     

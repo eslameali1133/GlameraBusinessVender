@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PendingOrdersCell" rowHeight="170" id="KGk-i7-Jjw" customClass="PendingOrdersCell" customModule="GlameraBusinessVender" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="169.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="djV-Z7-tsd" customClass="CardView" customModule="GlameraBusinessVender" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="354" height="153.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Clv-yd-4kC">
+                                <rect key="frame" x="8" y="8" width="112" height="87.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="order id " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boO-M3-vNL">
+                                        <rect key="frame" x="0.0" y="0.0" width="66.5" height="30.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="orderId"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="clientName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsP-X6-5md">
+                                        <rect key="frame" x="0.0" y="38.5" width="91" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="clientName"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="orderServices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qo-sL-p7c">
+                                        <rect key="frame" x="0.0" y="67" width="112" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="orderServices"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="IDp-fW-aj4">
+                                <rect key="frame" x="161" y="112.5" width="185" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnc-UY-sa6" customClass="RoundedCornerButton" customModule="GlameraBusinessVender" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="33"/>
+                                        <color key="backgroundColor" red="0.26184743642807007" green="0.59162026643753052" blue="0.50777131319046021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="91" id="A0N-GC-m8Q"/>
+                                        </constraints>
+                                        <state key="normal" title="confirm">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="confirm"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="_cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="confirm:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="XbZ-sg-5TK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLj-qZ-dqs" customClass="RoundedCornerButton" customModule="GlameraBusinessVender" customModuleProvider="target">
+                                        <rect key="frame" x="94" y="0.0" width="91" height="33"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="reject"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="cancelOrder"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="_cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="_borderColor">
+                                                <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="_borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="cancel:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bUB-6t-Wzv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Teh-0I-gGC">
+                                <rect key="frame" x="0.0" y="103.5" width="354" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="vGf-fp-cm4"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNK-iJ-3Yp">
+                                <rect key="frame" x="8" y="117" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BiI-1D-viu">
+                                <rect key="frame" x="128" y="8" width="45" height="59"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x17-rv-ciG">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="30.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dM-Tf-gL3">
+                                        <rect key="frame" x="0.0" y="38.5" width="45" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYY-Eh-jh9">
+                                <rect key="frame" x="128" y="75" width="42.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9dM-Tf-gL3" firstAttribute="centerY" secondItem="dsP-X6-5md" secondAttribute="centerY" id="4jv-qj-iIm"/>
+                            <constraint firstAttribute="bottom" secondItem="HNK-iJ-3Yp" secondAttribute="bottom" constant="16" id="4z3-gj-21A"/>
+                            <constraint firstItem="Teh-0I-gGC" firstAttribute="leading" secondItem="djV-Z7-tsd" secondAttribute="leading" id="Ag3-8A-KjN"/>
+                            <constraint firstItem="CYY-Eh-jh9" firstAttribute="centerY" secondItem="3qo-sL-p7c" secondAttribute="centerY" id="CaS-te-n3p"/>
+                            <constraint firstItem="x17-rv-ciG" firstAttribute="centerY" secondItem="boO-M3-vNL" secondAttribute="centerY" id="E2h-Jo-Io7"/>
+                            <constraint firstItem="HNK-iJ-3Yp" firstAttribute="top" secondItem="Teh-0I-gGC" secondAttribute="bottom" constant="12.5" id="FB7-Qs-nCD"/>
+                            <constraint firstAttribute="trailing" secondItem="IDp-fW-aj4" secondAttribute="trailing" constant="8" id="Jy8-zp-8tK"/>
+                            <constraint firstItem="Clv-yd-4kC" firstAttribute="leading" secondItem="djV-Z7-tsd" secondAttribute="leading" constant="8" id="Llz-WT-vVN"/>
+                            <constraint firstItem="BiI-1D-viu" firstAttribute="leading" secondItem="Clv-yd-4kC" secondAttribute="trailing" constant="8" id="TUs-OC-6Oq"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BiI-1D-viu" secondAttribute="trailing" constant="8" id="YuR-hk-KiM"/>
+                            <constraint firstItem="BiI-1D-viu" firstAttribute="top" secondItem="Clv-yd-4kC" secondAttribute="top" id="bnO-NI-j3I"/>
+                            <constraint firstItem="HNK-iJ-3Yp" firstAttribute="leading" secondItem="djV-Z7-tsd" secondAttribute="leading" constant="8" id="c0F-eS-nZl"/>
+                            <constraint firstItem="IDp-fW-aj4" firstAttribute="top" secondItem="Teh-0I-gGC" secondAttribute="bottom" constant="8" id="gEB-LS-Mmd"/>
+                            <constraint firstItem="CYY-Eh-jh9" firstAttribute="leading" secondItem="Clv-yd-4kC" secondAttribute="trailing" constant="8" id="hbW-cd-i4B"/>
+                            <constraint firstItem="Teh-0I-gGC" firstAttribute="top" secondItem="CYY-Eh-jh9" secondAttribute="bottom" constant="8" id="itM-FU-bZr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CYY-Eh-jh9" secondAttribute="trailing" constant="8" id="izG-q5-x9d"/>
+                            <constraint firstItem="Teh-0I-gGC" firstAttribute="top" secondItem="Clv-yd-4kC" secondAttribute="bottom" constant="8" id="jS5-wn-TsO"/>
+                            <constraint firstItem="Clv-yd-4kC" firstAttribute="top" secondItem="djV-Z7-tsd" secondAttribute="top" constant="8" id="jjt-hw-56n"/>
+                            <constraint firstAttribute="trailing" secondItem="Teh-0I-gGC" secondAttribute="trailing" id="oai-Rz-ajR"/>
+                            <constraint firstAttribute="bottom" secondItem="IDp-fW-aj4" secondAttribute="bottom" constant="8" id="oeZ-BB-8ej"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="djV-Z7-tsd" secondAttribute="trailing" constant="8" id="ArC-dN-WW5"/>
+                    <constraint firstItem="djV-Z7-tsd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="aSQ-bn-GVf"/>
+                    <constraint firstItem="djV-Z7-tsd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="pal-oS-kzu"/>
+                    <constraint firstAttribute="bottom" secondItem="djV-Z7-tsd" secondAttribute="bottom" constant="8" id="tmB-Iy-ySS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblClientName" destination="9dM-Tf-gL3" id="Ihh-3d-xeQ"/>
+                <outlet property="lblOrderId" destination="x17-rv-ciG" id="lIX-2m-2jM"/>
+                <outlet property="lblPrice" destination="HNK-iJ-3Yp" id="BNM-Um-LBW"/>
+                <outlet property="lblServices" destination="CYY-Eh-jh9" id="dzi-Wi-lgh"/>
+            </connections>
+            <point key="canvasLocation" x="168" y="188.90554722638683"/>
+        </tableViewCell>
+    </objects>
+</document>
