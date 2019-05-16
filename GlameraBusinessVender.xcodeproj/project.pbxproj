@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18279B1D22863A00006E59E9 /* Orders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18279B1C22863A00006E59E9 /* Orders.storyboard */; };
+		18279B2522881438006E59E9 /* CanceledOrders.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18279B1F22881438006E59E9 /* CanceledOrders.xib */; };
+		18279B2622881438006E59E9 /* ProgressOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B2022881438006E59E9 /* ProgressOrders.swift */; };
+		18279B2722881438006E59E9 /* PendingOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B2122881438006E59E9 /* PendingOrdersCell.swift */; };
+		18279B2822881438006E59E9 /* PendingOrdersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18279B2222881438006E59E9 /* PendingOrdersCell.xib */; };
+		18279B2922881438006E59E9 /* CanceledOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B2322881438006E59E9 /* CanceledOrders.swift */; };
+		18279B2A22881438006E59E9 /* ProgressOrders.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18279B2422881438006E59E9 /* ProgressOrders.xib */; };
+		18279B2D228820DF006E59E9 /* RoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B2C228820DF006E59E9 /* RoundedCornerButton.swift */; };
+		18279B2F22884482006E59E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B2E22884482006E59E9 /* CardView.swift */; };
+		18279B3222885009006E59E9 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B3122885009006E59E9 /* OrdersVC.swift */; };
+		18279B3422899FBA006E59E9 /* OrderPendingDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B3322899FBA006E59E9 /* OrderPendingDetailsVC.swift */; };
+		18279B362289A705006E59E9 /* OrdersProgressDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18279B352289A705006E59E9 /* OrdersProgressDetailsVC.swift */; };
+		18279B3B2289B607006E59E9 /* Services.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18279B3A2289B607006E59E9 /* Services.storyboard */; };
 		1840A8A022862239004B6D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840A89F22862239004B6D84 /* AppDelegate.swift */; };
 		1840A8A222862239004B6D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840A8A122862239004B6D84 /* ViewController.swift */; };
 		1840A8A522862239004B6D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1840A8A322862239004B6D84 /* Main.storyboard */; };
@@ -46,11 +59,34 @@
 		1840A90822862368004B6D84 /* lang-en.json in Resources */ = {isa = PBXBuildFile; fileRef = 1840A8E322862367004B6D84 /* lang-en.json */; };
 		1840A90922862368004B6D84 /* lang-ar.json in Resources */ = {isa = PBXBuildFile; fileRef = 1840A8E522862367004B6D84 /* lang-ar.json */; };
 		1840A90A22862368004B6D84 /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840A8E722862368004B6D84 /* HttpHelper.swift */; };
+		1851B6F02289D328009C593F /* GetAllBookingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6EF2289D327009C593F /* GetAllBookingsVC.swift */; };
+		1851B6F22289D368009C593F /* AddDefaultServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6F12289D368009C593F /* AddDefaultServicesVC.swift */; };
+		1851B6F42289D3EF009C593F /* AllServicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6F32289D3EF009C593F /* AllServicesModel.swift */; };
+		1851B6F62289D41C009C593F /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6F52289D41C009C593F /* OrdersModel.swift */; };
+		1851B6F8228ABCCF009C593F /* BusinessInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851B6F7228ABCCF009C593F /* BusinessInfo.storyboard */; };
+		1851B6FA228B1AE2009C593F /* RounderSegmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6F9228B1AE2009C593F /* RounderSegmented.swift */; };
+		1851B6FC228C3ADF009C593F /* OrderDetailsServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6FB228C3ADE009C593F /* OrderDetailsServiceCell.swift */; };
+		1851B6FF228D7FB9009C593F /* CancelationReasonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B6FE228D7FB8009C593F /* CancelationReasonsCell.swift */; };
+		1851B701228D7FE6009C593F /* CancelationReasonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B700228D7FE6009C593F /* CancelationReasonVC.swift */; };
+		1851B705228D80AB009C593F /* CancelationReasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851B704228D80AB009C593F /* CancelationReasonModel.swift */; };
 		594E5B82AD2DB87E1F0D2E4E /* Pods_GlameraBusinessVender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C87D0884E8F3311B852E2C9 /* Pods_GlameraBusinessVender.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C87D0884E8F3311B852E2C9 /* Pods_GlameraBusinessVender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlameraBusinessVender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18279B1C22863A00006E59E9 /* Orders.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orders.storyboard; sourceTree = "<group>"; };
+		18279B1F22881438006E59E9 /* CanceledOrders.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanceledOrders.xib; sourceTree = "<group>"; };
+		18279B2022881438006E59E9 /* ProgressOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressOrders.swift; sourceTree = "<group>"; };
+		18279B2122881438006E59E9 /* PendingOrdersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingOrdersCell.swift; sourceTree = "<group>"; };
+		18279B2222881438006E59E9 /* PendingOrdersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PendingOrdersCell.xib; sourceTree = "<group>"; };
+		18279B2322881438006E59E9 /* CanceledOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanceledOrders.swift; sourceTree = "<group>"; };
+		18279B2422881438006E59E9 /* ProgressOrders.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressOrders.xib; sourceTree = "<group>"; };
+		18279B2C228820DF006E59E9 /* RoundedCornerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
+		18279B2E22884482006E59E9 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18279B3122885009006E59E9 /* OrdersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		18279B3322899FBA006E59E9 /* OrderPendingDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPendingDetailsVC.swift; sourceTree = "<group>"; };
+		18279B352289A705006E59E9 /* OrdersProgressDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersProgressDetailsVC.swift; sourceTree = "<group>"; };
+		18279B3A2289B607006E59E9 /* Services.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Services.storyboard; sourceTree = "<group>"; };
 		1840A89C22862239004B6D84 /* GlameraBusinessVender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlameraBusinessVender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1840A89F22862239004B6D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1840A8A122862239004B6D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +132,16 @@
 		1840A8E422862367004B6D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1840A8E522862367004B6D84 /* lang-ar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lang-ar.json"; sourceTree = "<group>"; };
 		1840A8E722862368004B6D84 /* HttpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		1851B6EF2289D327009C593F /* GetAllBookingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllBookingsVC.swift; sourceTree = "<group>"; };
+		1851B6F12289D368009C593F /* AddDefaultServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDefaultServicesVC.swift; sourceTree = "<group>"; };
+		1851B6F32289D3EF009C593F /* AllServicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllServicesModel.swift; sourceTree = "<group>"; };
+		1851B6F52289D41C009C593F /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
+		1851B6F7228ABCCF009C593F /* BusinessInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessInfo.storyboard; sourceTree = "<group>"; };
+		1851B6F9228B1AE2009C593F /* RounderSegmented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RounderSegmented.swift; sourceTree = "<group>"; };
+		1851B6FB228C3ADE009C593F /* OrderDetailsServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsServiceCell.swift; sourceTree = "<group>"; };
+		1851B6FE228D7FB8009C593F /* CancelationReasonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelationReasonsCell.swift; sourceTree = "<group>"; };
+		1851B700228D7FE6009C593F /* CancelationReasonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelationReasonVC.swift; sourceTree = "<group>"; };
+		1851B704228D80AB009C593F /* CancelationReasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelationReasonModel.swift; sourceTree = "<group>"; };
 		7A7AB814CD309C074096FCB7 /* Pods-GlameraBusinessVender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlameraBusinessVender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlameraBusinessVender/Pods-GlameraBusinessVender.debug.xcconfig"; sourceTree = "<group>"; };
 		8C6C230CD623625A165DCA03 /* Pods-GlameraBusinessVender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlameraBusinessVender.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlameraBusinessVender/Pods-GlameraBusinessVender.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +158,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18279B1B228639D2006E59E9 /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+				18279B1C22863A00006E59E9 /* Orders.storyboard */,
+				18279B3A2289B607006E59E9 /* Services.storyboard */,
+				1851B6F7228ABCCF009C593F /* BusinessInfo.storyboard */,
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		18279B1E22880ECE006E59E9 /* OrdersCells */ = {
+			isa = PBXGroup;
+			children = (
+				18279B2222881438006E59E9 /* PendingOrdersCell.xib */,
+				18279B2122881438006E59E9 /* PendingOrdersCell.swift */,
+				18279B1F22881438006E59E9 /* CanceledOrders.xib */,
+				18279B2322881438006E59E9 /* CanceledOrders.swift */,
+				18279B2422881438006E59E9 /* ProgressOrders.xib */,
+				18279B2022881438006E59E9 /* ProgressOrders.swift */,
+				1851B6FB228C3ADE009C593F /* OrderDetailsServiceCell.swift */,
+			);
+			path = OrdersCells;
+			sourceTree = "<group>";
+		};
+		18279B2B228820B0006E59E9 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				18279B2E22884482006E59E9 /* CardView.swift */,
+				18279B2C228820DF006E59E9 /* RoundedCornerButton.swift */,
+				1851B6F9228B1AE2009C593F /* RounderSegmented.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		18279B3022884EAC006E59E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18279B372289AF5E006E59E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18279B3C2289C469006E59E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1851B6EF2289D327009C593F /* GetAllBookingsVC.swift */,
+				1851B6F12289D368009C593F /* AddDefaultServicesVC.swift */,
+				1851B6F32289D3EF009C593F /* AllServicesModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1840A89322862239004B6D84 = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +237,13 @@
 		1840A89E22862239004B6D84 /* GlameraBusinessVender */ = {
 			isa = PBXGroup;
 			children = (
+				1851B6EE2289CEFF009C593F /* Orders */,
+				18279B3C2289C469006E59E9 /* Services */,
+				18279B372289AF5E006E59E9 /* Model */,
+				18279B3022884EAC006E59E9 /* Controllers */,
+				18279B1B228639D2006E59E9 /* Views  */,
 				1840A8B122862366004B6D84 /* Extension */,
+				18279B2B228820B0006E59E9 /* SubViews */,
 				1840A8E622862368004B6D84 /* HttpHelper */,
 				1840A8DF22862367004B6D84 /* Localization */,
 				1840A8B722862366004B6D84 /* SharedData */,
@@ -307,6 +417,29 @@
 			path = HttpHelper;
 			sourceTree = "<group>";
 		};
+		1851B6EE2289CEFF009C593F /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				1851B6FD228D7F7E009C593F /* CancelationReason */,
+				18279B3322899FBA006E59E9 /* OrderPendingDetailsVC.swift */,
+				18279B3122885009006E59E9 /* OrdersVC.swift */,
+				18279B352289A705006E59E9 /* OrdersProgressDetailsVC.swift */,
+				1851B6F52289D41C009C593F /* OrdersModel.swift */,
+				18279B1E22880ECE006E59E9 /* OrdersCells */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		1851B6FD228D7F7E009C593F /* CancelationReason */ = {
+			isa = PBXGroup;
+			children = (
+				1851B700228D7FE6009C593F /* CancelationReasonVC.swift */,
+				1851B6FE228D7FB8009C593F /* CancelationReasonsCell.swift */,
+				1851B704228D80AB009C593F /* CancelationReasonModel.swift */,
+			);
+			name = CancelationReason;
+			sourceTree = "<group>";
+		};
 		90AB98428C3E48389412695C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -387,8 +520,14 @@
 			files = (
 				1840A90722862368004B6D84 /* Localizable.strings in Resources */,
 				1840A90922862368004B6D84 /* lang-ar.json in Resources */,
+				18279B2A22881438006E59E9 /* ProgressOrders.xib in Resources */,
 				1840A90822862368004B6D84 /* lang-en.json in Resources */,
+				18279B3B2289B607006E59E9 /* Services.storyboard in Resources */,
 				1840A8AA2286223A004B6D84 /* LaunchScreen.storyboard in Resources */,
+				1851B6F8228ABCCF009C593F /* BusinessInfo.storyboard in Resources */,
+				18279B1D22863A00006E59E9 /* Orders.storyboard in Resources */,
+				18279B2822881438006E59E9 /* PendingOrdersCell.xib in Resources */,
+				18279B2522881438006E59E9 /* CanceledOrders.xib in Resources */,
 				1840A8A72286223A004B6D84 /* Assets.xcassets in Resources */,
 				1840A8A522862239004B6D84 /* Main.storyboard in Resources */,
 			);
@@ -476,11 +615,16 @@
 				1840A8F922862368004B6D84 /* Localizable.swift in Sources */,
 				1840A8A222862239004B6D84 /* ViewController.swift in Sources */,
 				1840A8FC22862368004B6D84 /* LocalizableButton.swift in Sources */,
+				1851B6FC228C3ADF009C593F /* OrderDetailsServiceCell.swift in Sources */,
 				1840A8EA22862368004B6D84 /* UITextField.swift in Sources */,
 				1840A8F822862368004B6D84 /* LocalizableString.swift in Sources */,
+				1851B6FA228B1AE2009C593F /* RounderSegmented.swift in Sources */,
 				1840A90222862368004B6D84 /* APIConstants.swift in Sources */,
+				18279B362289A705006E59E9 /* OrdersProgressDetailsVC.swift in Sources */,
 				1840A90322862368004B6D84 /* DateView.swift in Sources */,
+				1851B6F62289D41C009C593F /* OrdersModel.swift in Sources */,
 				1840A90022862368004B6D84 /* LocalizableUIBarItem.swift in Sources */,
+				18279B3422899FBA006E59E9 /* OrderPendingDetailsVC.swift in Sources */,
 				1840A8F422862368004B6D84 /* Utilities.swift in Sources */,
 				1840A8F122862368004B6D84 /* Enum.swift in Sources */,
 				1840A8EB22862368004B6D84 /* Ex+TableView.swift in Sources */,
@@ -488,21 +632,33 @@
 				1840A8FD22862368004B6D84 /* LocalizableNavigationItem.swift in Sources */,
 				1840A8EC22862368004B6D84 /* UIText.swift in Sources */,
 				1840A8F522862368004B6D84 /* DBController.swift in Sources */,
+				18279B2622881438006E59E9 /* ProgressOrders.swift in Sources */,
 				1840A8EF22862368004B6D84 /* LocationHelper.swift in Sources */,
+				1851B705228D80AB009C593F /* CancelationReasonModel.swift in Sources */,
 				1840A8ED22862368004B6D84 /* SharedData.swift in Sources */,
 				1840A90A22862368004B6D84 /* HttpHelper.swift in Sources */,
+				1851B6F22289D368009C593F /* AddDefaultServicesVC.swift in Sources */,
 				1840A8F022862368004B6D84 /* SidemenuEnum.swift in Sources */,
+				18279B3222885009006E59E9 /* OrdersVC.swift in Sources */,
 				1840A8F722862368004B6D84 /* AppCommon.swift in Sources */,
 				1840A90422862368004B6D84 /* AMCircleImageView.swift in Sources */,
+				18279B2922881438006E59E9 /* CanceledOrders.swift in Sources */,
+				18279B2F22884482006E59E9 /* CardView.swift in Sources */,
 				1840A8E922862368004B6D84 /* UIColor.swift in Sources */,
+				1851B701228D7FE6009C593F /* CancelationReasonVC.swift in Sources */,
+				1851B6FF228D7FB9009C593F /* CancelationReasonsCell.swift in Sources */,
+				1851B6F02289D328009C593F /* GetAllBookingsVC.swift in Sources */,
 				1840A8EE22862368004B6D84 /* LanguageManager.swift in Sources */,
 				1840A90522862368004B6D84 /* Countries.swift in Sources */,
 				1840A8E822862368004B6D84 /* UIView.swift in Sources */,
+				1851B6F42289D3EF009C593F /* AllServicesModel.swift in Sources */,
+				18279B2D228820DF006E59E9 /* RoundedCornerButton.swift in Sources */,
 				1840A8F322862368004B6D84 /* Loader.swift in Sources */,
 				1840A90622862368004B6D84 /* Country.swift in Sources */,
 				1840A8FF22862368004B6D84 /* LocalizableLabel.swift in Sources */,
 				1840A8FB22862368004B6D84 /* LocalizableTextView.swift in Sources */,
 				1840A8A022862239004B6D84 /* AppDelegate.swift in Sources */,
+				18279B2722881438006E59E9 /* PendingOrdersCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

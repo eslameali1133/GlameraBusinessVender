@@ -181,7 +181,7 @@ class HttpHelper{
                     self.delegate?.retryResponse(numberOfrequest: self.numberOfrequest)
                     self.numberOfrequest  = self.numberOfrequest +  1
                 }
-            }else{
+            }else {
                 self.delegate?.receivedErrorWithStatusCode(statusCode: response.response!.statusCode)
             }
         }

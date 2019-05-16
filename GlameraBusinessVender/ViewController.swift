@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let vc =  OrdersVC.instantiate(fromAppStoryboard: .Orders)
+        self.navigationController?.pushViewController(vc, animated: true)
+
         // Do any additional setup after loading the view.
+        
     }
 
 

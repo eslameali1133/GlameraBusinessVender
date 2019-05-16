@@ -227,4 +227,12 @@ class AppCommon: UIViewController {
     }
     
 }
-
+extension UIViewController {
+    class var storyboardID : String {
+        return "\(self)"
+    }
+    
+    static func instantiate(fromAppStoryboard appStoryboard: AppStoryboard) -> Self {
+        return appStoryboard.viewController(viewControllerClass: self)
+    }
+}
