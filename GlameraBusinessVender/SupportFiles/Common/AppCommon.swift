@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 //import JBWebViewController
-//import SwiftyJSON
+import SwiftyJSON
 
 
 class AppCommon: UIViewController {
@@ -45,6 +45,29 @@ class AppCommon: UIViewController {
 //        
 //    }
 
+    func saveJSON(json: JSON, key:String){
+        let jsonString = json.rawString()!
+        UserDefaults.standard.setValue(jsonString, forKey: key)
+        //            UserDefaults.synchronize()
+    }
+    
+    func getJSON(_ key: String)->JSON {
+        var p = ""
+        if let buildNumber = UserDefaults.standard.value(forKey: key) as? String {
+            p = buildNumber
+        }else {
+            p = ""
+        }
+        if  p != "" {
+            if let json = p.data(using: String.Encoding.utf8, allowLossyConversion: false) {
+                return try! JSON(data: json)
+            } else {
+                return JSON("nil")
+            }
+        } else {
+            return JSON("nil")
+        }
+    }
     
     
     func GotoVerificationcode(vc: UIViewController,UserID: String,userType:Bool,Mobile:String) {
@@ -60,28 +83,13 @@ class AppCommon: UIViewController {
     func ShowHome() {
         
        
-      let UserType = UserDefaults.standard.string(forKey: "UserType")!
-        print(UserType)
-        if UserType == "true"
-        {
-            let sb = UIStoryboard(name: "CarOwner", bundle: nil)
-            let delegate = UIApplication.shared.delegate as! AppDelegate
-            delegate.window?.rootViewController = sb.instantiateInitialViewController()
-            
-        }else{
-            
-            let sb = UIStoryboard(name: "HomeVender", bundle: nil)
-            let delegate = UIApplication.shared.delegate as! AppDelegate
-            delegate.window?.rootViewController = sb.instantiateInitialViewController()
-        }
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        delegate.window?.rootViewController = sb.instantiateInitialViewController()
         
     }
     
-    func ShowHomeCarowner() {
-        let sb = UIStoryboard(name: "CarOwner", bundle: nil)
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        delegate.window?.rootViewController = sb.instantiateInitialViewController()
-    }
+   
     
     func showlogin(vc: UIViewController) {
         
